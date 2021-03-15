@@ -60,6 +60,7 @@ function getRandomInt(min, max) {
 }
 
 button.click(function(){
-    var winningnum = getRandomInt(1, 51);
+    winningnum = getRandomInt(1, 51);
+    n50.html(winningnum);
 })
 
