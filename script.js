@@ -231,7 +231,7 @@ button.click(function(){
 
                                                                                                                                                                             setTimeout(function(){
                                                                                                                                                                                 if (winningnum === 8){
-                                                                                                                                                                                    n7.css({"background-color": "green", "color": "white"});
+                                                                                                                                                                                    n8.css({"background-color": "green", "color": "white"});
                                                                                                                                                                                     winnum.css({"background-color": "green", "color": "white"});
                                                                                                                                                                                     winname.css({"background-color": "green", "color": "white"});
                                                                                                                                                                                     winnum.html(winningnum);
