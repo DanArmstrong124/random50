@@ -5,6 +5,6 @@ div{
 }
 
 div .row {
-    border: none;
-    background-color: white;
+    border: none !important;
+    background-color: white !important;
 }
