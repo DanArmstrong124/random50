@@ -49,6 +49,9 @@ var n48 = $(' #48 ');
 var n49 = $(' #49 ');
 var n50 = $(' #50 ');
 
+var winnum = $(' #winningnumber ');
+var winname = $(' #winningname ');
+
 var button = $(' #button ');
 
 var winningnum = 0;
@@ -60,6 +63,8 @@ function getRandomInt(min, max) {
 }
 
 button.click(function(){
+    button.addClass("disabled");
     winningnum = getRandomInt(1, 51);
+
 })
 
