@@ -130,7 +130,7 @@ button.click(function(){
             n1.css({"background-color": "red", "color": "white"});
             winnum.css({"background-color": "red", "color": "white"});
             winname.css({"background-color": "red", "color": "white"});
-            winnum.html(winningnum);
+            winnum.html("1");
             winname.html(w1);
 
         }
