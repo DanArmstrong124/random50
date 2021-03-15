@@ -132,7 +132,25 @@ button.click(function(){
             winname.css({"background-color": "red", "color": "white"});
             winnum.html("1");
             winname.html(w1);
+            
 
+                setTimeout(function(){
+                    if (winningnum === 2){
+                        n2.css({"background-color": "green", "color": "white"});
+                        winnum.css({"background-color": "green", "color": "white"});
+                        winname.css({"background-color": "green", "color": "white"});
+                        winnum.html(winningnum);
+                        winname.html(w2);
+                    }
+                    else if (winningnum != 1){
+                        n2.css({"background-color": "red", "color": "white"});
+                        winnum.css({"background-color": "red", "color": "white"});
+                        winname.css({"background-color": "red", "color": "white"});
+                        winnum.html("2");
+                        winname.html(w2);
+
+                    }
+                }, 1000);
         }
     }, 1000);
 
