@@ -150,7 +150,7 @@ button.click(function(){
                         winname.html(w2);
 
                     }
-                }, 1000);
+                }, 500);
         }
     }, 1000);
 
