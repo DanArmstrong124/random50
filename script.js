@@ -142,12 +142,106 @@ button.click(function(){
                         winnum.html(winningnum);
                         winname.html(w2);
                     }
-                    else if (winningnum != 1){
+                    else if (winningnum != 2){
                         n2.css({"background-color": "red", "color": "white"});
                         winnum.css({"background-color": "red", "color": "white"});
                         winname.css({"background-color": "red", "color": "white"});
                         winnum.html("2");
                         winname.html(w2);
+
+
+                                        setTimeout(function(){
+                                            if (winningnum === 3){
+                                                n3.css({"background-color": "green", "color": "white"});
+                                                winnum.css({"background-color": "green", "color": "white"});
+                                                winname.css({"background-color": "green", "color": "white"});
+                                                winnum.html(winningnum);
+                                                winname.html(w3);
+                                            }
+                                            else if (winningnum != 3){
+                                                n3.css({"background-color": "red", "color": "white"});
+                                                winnum.css({"background-color": "red", "color": "white"});
+                                                winname.css({"background-color": "red", "color": "white"});
+                                                winnum.html("3");
+                                                winname.html(w3);
+
+
+                                                                            setTimeout(function(){
+                                                                                    if (winningnum === 4){
+                                                                                        n2.css({"background-color": "green", "color": "white"});
+                                                                                        winnum.css({"background-color": "green", "color": "white"});
+                                                                                        winname.css({"background-color": "green", "color": "white"});
+                                                                                        winnum.html(winningnum);
+                                                                                        winname.html(w4);
+                                                                                    }
+                                                                                    else if (winningnum != 4){
+                                                                                        n2.css({"background-color": "red", "color": "white"});
+                                                                                        winnum.css({"background-color": "red", "color": "white"});
+                                                                                        winname.css({"background-color": "red", "color": "white"});
+                                                                                        winnum.html("4");
+                                                                                        winname.html(w4);
+
+
+                                                                                                        setTimeout(function(){
+                                                                                                            if (winningnum === 5){
+                                                                                                                n5.css({"background-color": "green", "color": "white"});
+                                                                                                                winnum.css({"background-color": "green", "color": "white"});
+                                                                                                                winname.css({"background-color": "green", "color": "white"});
+                                                                                                                winnum.html(winningnum);
+                                                                                                                winname.html(w5);
+                                                                                                            }
+                                                                                                            else if (winningnum != 5){
+                                                                                                                n5.css({"background-color": "red", "color": "white"});
+                                                                                                                winnum.css({"background-color": "red", "color": "white"});
+                                                                                                                winname.css({"background-color": "red", "color": "white"});
+                                                                                                                winnum.html("5");
+                                                                                                                winname.html(w5);
+
+
+                                                                                                                            setTimeout(function(){
+                                                                                                                                    if (winningnum === 6){
+                                                                                                                                        n6.css({"background-color": "green", "color": "white"});
+                                                                                                                                        winnum.css({"background-color": "green", "color": "white"});
+                                                                                                                                        winname.css({"background-color": "green", "color": "white"});
+                                                                                                                                        winnum.html(winningnum);
+                                                                                                                                        winname.html(w6);
+                                                                                                                                    }
+                                                                                                                                    else if (winningnum != 6){
+                                                                                                                                        n5.css({"background-color": "red", "color": "white"});
+                                                                                                                                        winnum.css({"background-color": "red", "color": "white"});
+                                                                                                                                        winname.css({"background-color": "red", "color": "white"});
+                                                                                                                                        winnum.html("6");
+                                                                                                                                        winname.html(w6);
+
+                                                                                                                                                    setTimeout(function(){
+                                                                                                                                                            if (winningnum === 7){
+                                                                                                                                                                n7.css({"background-color": "green", "color": "white"});
+                                                                                                                                                                winnum.css({"background-color": "green", "color": "white"});
+                                                                                                                                                                winname.css({"background-color": "green", "color": "white"});
+                                                                                                                                                                winnum.html(winningnum);
+                                                                                                                                                                winname.html(w7);
+                                                                                                                                                            }
+                                                                                                                                                            else if (winningnum != 7){
+                                                                                                                                                                n5.css({"background-color": "red", "color": "white"});
+                                                                                                                                                                winnum.css({"background-color": "red", "color": "white"});
+                                                                                                                                                                winname.css({"background-color": "red", "color": "white"});
+                                                                                                                                                                winnum.html("7");
+                                                                                                                                                                winname.html(w7);
+
+                                                                                                                                                            }
+                                                                                                                                                        }, 500);
+
+                                                                                                                                    }
+                                                                                                                                }, 500);
+
+                                                                                                            }
+                                                                                                        }, 500);
+
+                                                                                    }
+                                                                                }, 500);
+
+                                            }
+                                        }, 500);
 
                     }
                 }, 500);
