@@ -4,7 +4,7 @@ div{
     color: black;
 }
 
-div .row {
+.row {
     border: none !important;
     background-color: white !important;
 }
