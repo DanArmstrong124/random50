@@ -116,7 +116,9 @@ function getRandomInt(min, max) {
 
 button.click(function(){
     button.addClass("disabled");
-    winningnum = getRandomInt(1, 51);
+
+    //SET NUMBER OF TICKETS
+    winningnum = getRandomInt(1, 21);
     
     setTimeout(function(){
         if (winningnum === 1){
