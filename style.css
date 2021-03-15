@@ -3,3 +3,8 @@ div{
     background-color: grey;
     color: red;
 }
+
+div .row {
+    border: none;
+    background-color: white;
+}
